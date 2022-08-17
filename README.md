@@ -18,6 +18,11 @@ To run you need proper `.env` file with secret tokens
 uvicorn gtkm.main:app --reload --env-file .env
 ```
 
+**Hint:** If you get error because `Address already in use`, try it before
+```bash
+sudo kill -9 `sudo lsof -t -i:8000`
+```
+
 ### Microservice version
 
 - Install nginx (https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
