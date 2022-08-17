@@ -8,13 +8,13 @@ name = "Jan"
 surname = "Buduj"
 username = "janbudujarch"
 
-stat_1_name = "Number of public repos:"
+stat_1_name = "Public repos owned:"
 stat_1_value = 4
 
-stat_2_name = "Number of forks:"
+stat_2_name = "Forks of public repos:"
 stat_2_value = 5
 
-stat_3_name = "Number of earned stars:"
+stat_3_name = "Stars earned:"
 stat_3_value = 6
 
 # Generating profile badge
